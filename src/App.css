@@ -47,6 +47,20 @@
   font-family: roboto mono, monospace;
 }
 
+.cta-button2{
+  background-color: #000000;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.1rem 2.5rem;
+  border-radius: 0.5rem;
+  border-color: white;
+  margin: 2rem 0px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: roboto mono, monospace;
+}
+
 
 .contextbox{
   text-align: left;
@@ -138,11 +152,53 @@ footer a:hover {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .herotext {
+    font-size: 3rem; /* Smaller font size for smaller screens */
+    width: 50%;
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .image1{
+    width: 300px;
+  }
+  .image2{
+    width: 400px;
+  }
+
+  .herosubtext, .section-p {
+    font-size: 0.95rem; /* Adjust font size for readability */
+  }
+
+  .cta-button {
+    padding: 0.8rem 2rem; /* Adjust button padding for smaller screens */
+  }
+
+  .contextbox, .section-p, .section-title {
+    width: 85%; /* Allow more margin on the sides */
+  }
+
+  .section-title {
+    margin: 2rem auto;
+  }
+
+  .cta-button2 {
+    margin: 3rem 2rem;
+  }
+
+}
+
+/* Additional Media Query for very small screens, like smartphones */
+@media (max-width: 480px) {
+  .herotext {
+    font-size: 1.5rem; /* Even smaller font size for very small screens */
+  }
+
+  .herosubtext, .section-p {
+    font-size: 0.9rem; /* Further adjust for readability on small devices */
+  }
+
+  .cta-button {
+    padding: 0.7rem 1.5rem; /* Smaller buttons on very small screens */
   }
 }

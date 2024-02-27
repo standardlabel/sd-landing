@@ -46,7 +46,7 @@ function App() {
         <div className='section-p'>
         <p>Early users will get the chance to earn more rewards, improve their rankings, and learn the best ways to increase their earnings.</p>
         </div>
-        <button className="cta-button">Apply for Beta Access</button>
+        <button className="cta-button2">Apply for Beta Access</button>
       </section>
       </div>
 
